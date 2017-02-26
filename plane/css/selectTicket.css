@@ -1,0 +1,150 @@
+body {
+	/*width: 10rem;
+	margin: 0 auto;*/
+	/*background: #96d7f5;*/
+}
+
+#app {
+	position: relative;
+	width: 10rem;
+	height: 17.786666rem;
+	margin: 0 auto;
+	background: #96d7f5;
+}
+
+.header {
+	width: 9.466666rem;
+	margin: 0 auto;
+	padding: 0.266666rem;
+	height: 1.2rem;
+}
+
+.header div {
+	float: left;
+	height: 1.2rem;
+	border-radius: 0.133333rem;
+	font-size: 0.32rem;
+}
+
+.head_l {
+	width: 2.666666rem;
+	background: #c5edff url(../img/left.png) no-repeat 0.4rem/10%;
+	color: #5ea2e1;
+}
+
+.head_l p {
+	text-align: right;
+	padding: 0.133333rem 0.5rem 0 1.12rem;
+}
+
+.head_l p:first-child {
+	padding-top: 0.266666rem;
+}
+
+.head_m {
+	width: 3.6rem;
+	margin: 0 0.266666rem;
+	color: #999999;
+	background: white;
+	text-align: center;
+}
+
+.head_m p:first-child {
+	margin: 0.133333rem 0 0 0;
+	line-height: 0.6rem;
+}
+
+.head_m p:last-child {
+	color: #ff6631;
+}
+
+.head_r {
+	width: 2.666666rem;
+	color: #5ea2e1;
+	background: #c5edff url(../img/right.png) no-repeat 84%/10%;
+}
+
+.head_r p {
+	padding: 0.133333rem 1.12rem 0 0.5rem;
+}
+
+.head_r p:first-child {
+	padding-top: 0.266666rem;
+}
+
+.ticket_list {
+	width: 9.466666rem;
+	margin: 0 auto;
+}
+
+.ticket_list li {
+	height: 2.4rem;
+	border-radius: 0.2rem;
+	margin-bottom: 0.133333rem;
+	background: #FFFFFF url(../img/arrow.png) no-repeat 29%/16%;
+}
+
+.ticket_list li>p {
+	clear: both;
+	padding-left: 0.9rem;
+	font-size: 0.266666rem;
+	color: #999999;
+	background: url(../img/ll.png) no-repeat 2%/5%;
+}
+
+.ticket_list .arrow {
+	background: #FFFFFF url(../img/arrow.png) no-repeat center/55%;
+}
+
+.ticket_list div {
+	width: 20%;
+	height: 1.5rem;
+	padding-top: 0.34rem;
+	float: left;
+	font-size: 0.54rem;
+	text-align: center;
+}
+
+.ticket_list div:last-of-type {
+margin-left: 16%;
+	font-weight: bolder;
+	color: #FF6631;
+}
+
+.ticket_list div h5 {
+	font-weight: bolder;
+}
+
+.ticket_list div p {
+	line-height: 0.766666rem;
+	font-size: 0.266666rem;
+	color: #999999;
+}
+
+.filter {
+	position: fixed;
+	bottom: 0;
+	background: red;
+	width: 10rem;
+	height: 1.066666rem;
+	font-size: 0;
+	text-align: center;
+	line-height: 1.066666rem;
+}
+
+.filter span {
+	display: inline-block;
+	width: 50%;
+	height: inherit;
+	font-size: 0.4rem;
+}
+
+.filter span:first-child {
+	color: #5ea2e1;
+	background: #c5edff;
+}
+
+.filter span:last-child {
+	color: #999999;
+	background: #f2f2f2;
+}

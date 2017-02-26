@@ -127,6 +127,9 @@ option {
 	font-size: 100%;
 	font: inherit;
 }
+li{
+list-style: none;
+}
 
 .al {
 	text-align: left;

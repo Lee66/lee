@@ -1,0 +1,67 @@
+body{
+width: 10rem;
+margin: 0 auto;
+}
+#app {
+position: relative;
+	width: 10rem;
+	height: 17.786666rem;
+	margin: 0 auto;
+	overflow: scroll;
+}
+
+.slideBar {
+	position: fixed;
+	right: 4%;
+}
+
+.slideBar li {
+	height: 0.5rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+
+
+/*
+.header {
+	width: 9.466666rem;
+	margin: 0 auto;
+	padding: 0.266666rem;
+	height: 1.2rem;
+}*/
+
+.title {
+	height: 0.933333rem;
+	font-size: 0;
+}
+
+.title p {
+	width: 50%;
+	height: inherit;
+	float: left;
+	text-align: center;
+	font-size: 0.266666rem;
+	line-height: 0.7rem;
+}
+
+.title span {
+	display: inline-block;
+}
+
+.title p:first-child span {
+	border-bottom: 0.04rem solid #92d6f5;
+}
+
+.cityList h5 {
+	height: 0.613333rem;
+	line-height: 0.613333rem;
+	background: #f1f3f7;
+	text-indent: 0.266666rem;
+}
+
+.cityList ul li {
+	height: 1.12rem;
+	line-height: 1.12rem;
+	border-bottom: 1px solid #f1f4f6;
+	text-indent: 0.266666rem;
+}
